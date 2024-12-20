@@ -5,8 +5,7 @@ import com.rodionov.crud.domain.TaskStatusEnum;
 import java.time.LocalDateTime;
 
 /**
- * Author: Dmitriy Rodionov
- * Date: 17.08.2024
+ * Author: Dmitriy Rodionov Date: 17.08.2024
  */
 
 public record TaskDto(Long id,
@@ -14,4 +13,5 @@ public record TaskDto(Long id,
                       String description,
                       TaskStatusEnum status,
                       LocalDateTime createdAt,
-                      LocalDateTime finishedAt) {}
+                      LocalDateTime finishedAt) {
+}
